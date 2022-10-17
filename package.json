@@ -1,0 +1,29 @@
+{
+  "name": "react-inline-form-component",
+  "version": "2.0.0",
+  "description": "an inline function which will create form components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMNthemaster/react-inline-forms-component.git"
+  },
+  "keywords": [
+    "react",
+    "inline",
+    "forms",
+    "component"
+  ],
+  "author": "varad-nadkarni <varad.nadkarni09@gmail.com> (varad-first-npm.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VMNthemaster/react-inline-forms-component/issues"
+  },
+  "homepage": "https://github.com/VMNthemaster/react-inline-forms-component#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
