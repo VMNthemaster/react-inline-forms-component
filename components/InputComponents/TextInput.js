@@ -6,7 +6,7 @@ const TextInput = (
   onChange,
   disabled=false
 ) => {
-  const val = (
+  return (
     <input
       type="text"
       className={`${className}`}
@@ -18,6 +18,5 @@ const TextInput = (
       disabled={disabled}
     />
   )
-  return val
 }
 export { TextInput }

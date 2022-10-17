@@ -1,6 +1,6 @@
 {
   "name": "react-inline-form-component",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "an inline function which will create form components",
   "main": "index.js",
   "scripts": {
