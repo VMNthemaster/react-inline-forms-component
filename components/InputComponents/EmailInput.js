@@ -6,7 +6,7 @@ const EmailInput = (
   onChange,
   disabled = false
 ) => {
-  return (
+  return [
     <input
       type="email"
       className={`${className}`}
@@ -17,7 +17,7 @@ const EmailInput = (
       onChange={onChange}
       disabled={disabled}
     />
-  )
+  ]
 }
 
 export { EmailInput }

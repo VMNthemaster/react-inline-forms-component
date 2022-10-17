@@ -6,7 +6,7 @@ const Select = (
   onChange,
   arr
 ) => {
-  return (
+  return [
     <select
       className={selectClassName}
       name={Name}
@@ -22,7 +22,7 @@ const Select = (
         )
       })}
     </select>
-  )
+  ]
 }
 
 export { Select }

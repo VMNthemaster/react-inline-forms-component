@@ -6,7 +6,7 @@ const PasswordInput = (
   onChange,
   disabled = false
 ) => {
-      return (
+      return [
         <input
           type="password"
           className={`${className}`}
@@ -17,7 +17,7 @@ const PasswordInput = (
           onChange={onChange}
           disabled={disabled}
         />
-      )
+      ]
 }
 
 export { PasswordInput }
